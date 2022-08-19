@@ -10,7 +10,7 @@ SoftwareSerial sim900(12,14); //rx,tx
 SoftwareSerial gpsSerial(4,5);
 TinyGPS gps;
 
-String phoneNumber = "+918075723356";
+String phoneNumber = "+91<yournumber>";
 
 float latitude=0.0,longitude=0.0;
 unsigned long age=0;
